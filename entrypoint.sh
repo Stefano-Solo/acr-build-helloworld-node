@@ -11,9 +11,9 @@ GROUP=${RUNNER_GROUP:-"default"}
 echo "Configuring GitHub Actions Runner and registering"
 ./config.sh \
     --unattended \
-    --url "https://github.com/mariocastronovo/acr-build-helloworld-node" \
-    --token "ABZU3MSBOHOT5D3FO7G6VV3DNUHO6" \
-    --name "mcstestrunnernew" \
+    --url "https://github.com/Stefano-Solo/acr-build-helloworld-node" \
+    --token "AN63AFYMBMXSNJAQIXPS74LDNUJ2K" \
+    --name "myrunner" \
     --runnergroup ${GROUP} \
     $OPTIONS
 
